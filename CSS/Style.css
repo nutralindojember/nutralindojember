@@ -4,3 +4,54 @@ body {
     background-color: aliceblue;
     font-family: 'Raleway', sans-serif;
 }
+#title {
+    padding: 15px;
+    margin: 15px;
+    margin-top: 100px;
+    text-align: center;
+}
+.container {
+    position: fixed;
+    width: 99%;
+    display: flex;
+    justify-items: center;
+    background-color: #4b443f;
+    color: #fff;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+.home {
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    justify-content: left;
+    justify-items: flex-start;
+}
+#container {
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: space-around;
+    color: #fff;
+}
+h2#container, div > .home, div > .about, div > .product, div > .service, div > .contact{
+    padding: 20px;
+    margin: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+#container-outer {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-around;
+}
+div > a[href] {
+    color: #fff;
+    color-scheme: #fff;
+    display: flex;
+    justify-content: space-around;
+}
