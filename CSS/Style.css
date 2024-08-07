@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
+
 body { 
     background-color: aliceblue;
     font-family: 'Raleway', sans-serif;
@@ -11,15 +12,17 @@ body {
     text-align: center;
 }
 .container {
-    position: fixed;
+    position: sticky;
+    top: 0px;
     width: 99%;
     display: flex;
     justify-items: center;
     background-color: #31cf59;
-    background-blend-mode: lighten;
-    color: #fff;
+    opacity: 0.7;
+    color: #000;
     margin-right: 20px;
     justify-content: space-around;
+    border-radius: 15px;
 }
 #logo-nutralindo {
     padding: 10px;
@@ -64,4 +67,69 @@ div > a[href] {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+
+
+
+
+
+
+/* Body */
+#home::after {
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.product {
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.service {
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.content {
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.about {
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.contact {
+    padding: 20px;
+    margin: 20px auto;
 }
