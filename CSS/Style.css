@@ -15,10 +15,17 @@ body {
     width: 99%;
     display: flex;
     justify-items: center;
-    background-color: #4b443f;
+    background-color: #31cf59;
+    background-blend-mode: lighten;
     color: #fff;
     margin-right: 20px;
     justify-content: space-around;
+}
+#logo-nutralindo {
+    padding: 10px;
+    display: flex;
+    width: 120px;
+    height: 90px;
 }
 .home {
     padding: 20px;
@@ -30,6 +37,7 @@ body {
 #container {
     padding: 20px;
     margin: 15px;
+    margin-left: 0%;
     display: flex;
     flex-direction: column;
     justify-items: flex-start;
@@ -42,6 +50,7 @@ h2#container, div > .home, div > .about, div > .product, div > .service, div > .
     color: #fff;
     display: flex;
     justify-content: space-around;
+    justify-items: center;
 }
 #container-outer {
     display: flex;
@@ -54,4 +63,5 @@ div > a[href] {
     color-scheme: #fff;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
